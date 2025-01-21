@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+.top-nav{
+    overflow: hidden;
+}
+
 /********** Template CSS **********/
 :root {
     --primary: #06BBCC;
@@ -20,7 +27,24 @@
     bottom: 45px;
     z-index: 99;
 }
-
+/* top nav design */
+.top-nav{
+    background-color: black;
+}
+.top-nav span ,i{
+    font-size: 13px;
+    color: white;
+}
+.top-nav .marquee{
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.top-nav ul li {
+display: inline-block;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -434,3 +458,75 @@
     padding-right: 0;
     border-right: none;
 }
+
+/* certificate chack */
+.certificate-verification {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+.certificate-verification .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.certificate-verification .verification-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.certificate-verification .verification-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+.certificate-verification .verification-form p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #666;
+}
+.certificate-verification .form-group {
+    margin-bottom: 20px;
+}
+.certificate-verification .form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+.certificate-verification .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+.certificate-verification .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+}
+.certificate-verification .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.certificate-verification .btn:hover {
+    background-color: #0056b3;
+}
+
+/* student login */
+
+
