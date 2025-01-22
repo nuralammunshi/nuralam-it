@@ -35,11 +35,8 @@
     font-size: 13px;
     color: white;
 }
-.top-nav .marquee{
+.top-nav .marquee_animation{
     color: white;
-    display: flex;
-    text-align: center;
-    justify-content: center;
    
 }
 .top-nav ul li {
@@ -529,4 +526,6 @@ display: inline-block;
 
 /* student login */
 
+
+/* top nav bar */
 

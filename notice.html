@@ -44,7 +44,7 @@
     <!-- top Navbar Start -->
      <section class="top-nav pt-2 mt-2">
         <div class="row">
-            <div class="col-3">
+            <div class="col-6 col-md-3">
                 <ul>
                     <li>
                         <div class="student-longin">
@@ -66,15 +66,14 @@
 
             </div>
 
-           
             <div class="col-12 col-md-6 align-content-center">
-                <div class="marquee_animation">
-                  <marquee behavior="" direction="">
-                      Welcome to our software and training company! We’re excited to support your journey towards success. Our team is committed to delivering top-quality software solutions and expert training tailored to your needs. Together, we’ll enhance your skills and empower your business to thrive in an ever-evolving digital world!
-                  </marquee>
-                </div>
+              <div class="marquee_animation">
+                <marquee behavior="" direction="">
+                    Welcome to our software and training company! We’re excited to support your journey towards success. Our team is committed to delivering top-quality software solutions and expert training tailored to your needs. Together, we’ll enhance your skills and empower your business to thrive in an ever-evolving digital world!
+                </marquee>
               </div>
-            <div class="col-3">
+            </div>
+            <div class="col-6 col-md-3">
                 <ul>
                     <li>
                         <div class="Certificate-Check">
@@ -126,54 +125,134 @@
         </div>
     </nav>
     <!-- Navbar End -->
-
-    <section class="student-login py-5">
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <!-- Image Section -->
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <div class="img">
-                        <img src="img/logain.png" alt="Login Image" class="img-fluid rounded shadow-lg">
-                    </div>
-                </div>
-    
-                <!-- Login Form Section -->
-                <div class="col-lg-6">
-                    <div class="card shadow-sm p-4">
-                        <h3 class="text-center mb-4">Employee Login</h3>
-                        <form>
-                            <!-- Email Input -->
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="Enter your email" aria-describedby="emailHelp" required>
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                            </div>
-    
-                            <!-- Password Input -->
-                            <div class="mb-3">
-                                <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
-                            </div>
-    
-                            <!-- Remember Me Checkbox -->
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="rememberMe">
-                                <label class="form-check-label" for="rememberMe">Remember me</label>
-                            </div>
-    
-                            <!-- Submit Button -->
-                            <button type="submit" class="btn btn-primary w-100">Login</button>
-                        </form>
-                        <div class="text-center mt-3">
-                            <a href="#" class="text-decoration-none">Forgot your password?</a>
-                        </div>
-                        
+        <!-- Header Start -->
+        <div class="container-fluid bg-primary py-5 mb-5 page-header">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 text-center">
+                        <h1 class="display-3 text-white animated slideInDown">Contact</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                                <li class="breadcrumb-item text-white active" aria-current="page">Notice</li>
+                            </ol>
+                        </nav>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <!-- Header End -->
+         <!-- totice information -->
+         <section class="notice py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Title and Show Dropdown -->
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <h1 class="h3">নোটিশ</h1>
+                        <div class="d-flex align-items-center">
+                            <label for="show" class="me-2">Show</label>
+                            <div class="dropdown">
+                                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="show" data-bs-toggle="dropdown" aria-expanded="false">
+                                    10
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="show">
+                                    <li><a class="dropdown-item" href="#">20</a></li>
+                                    <li><a class="dropdown-item" href="#">30</a></li>
+                                    <li><a class="dropdown-item" href="#">40</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
     
+                    <!-- Search and Print -->
+                    <div class="col-md-6 d-flex justify-content-md-end align-items-center">
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-printer"></i>
+                            <label for="search" class="me-2">Search</label>
+                            <input type="text" id="search" class="form-control form-control-sm" placeholder="Search notices">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Notice Table -->
+                <div class="table-responsive mt-3">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">SI NO</th>
+                                <th scope="col">TITLE</th>
+                                <th scope="col">DATE</th>
+                                <th scope="col">Download</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">06</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">07</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">08</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">09</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td>Admission</td>
+                                <td>1/22/25</td>
+                                <td><a href="#" class="btn btn-link">PDF</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+     
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -255,9 +334,8 @@
     </div>
     <!-- Footer End -->
 
-
-<!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
       
 
     <!-- JavaScript Libraries -->
