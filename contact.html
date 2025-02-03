@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,6 +29,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -144,9 +146,68 @@
         </div>
     </div>
     <!-- Header End -->
+ <!-- live chart start -->
 
+ 
 
-  
+  <!-- live chart end -->
+
+<!-- contract information start -->
+<section class="contract">
+    <div class="container form-container py-5">
+        <h2 class="text-center mb-5 text-primary font-weight-bold">Contact Us</h2>
+        <div class="row">
+            <!-- Left Column: Map -->
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div id="map" class="map-container shadow-sm">
+                    <!-- Example: Google Maps embed -->
+                    <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+
+            <!-- Right Column: Form -->
+            <div class="col-lg-6">
+                <form id="contactForm" action="send_email.php" method="POST">
+                    <!-- Full Name Field -->
+                    <div class="mb-4">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required 
+                               minlength="3" maxlength="50" pattern="[A-Za-z\s]+" title="Name should contain only letters and spaces.">
+                    </div>
+
+                    <!-- Phone Number Field -->
+                    <div class="mb-4">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required 
+                               pattern="^\+?\d{0,13}" title="Phone number can include a '+' and digits only.">
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required 
+                               pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" 
+                               title="Please enter a valid email address.">
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="mb-4">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message" required 
+                                  minlength="10" maxlength="500" 
+                                  title="Message should be at least 10 characters long and no more than 500 characters."></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+ <!-- contract information end -->
 
 
 
